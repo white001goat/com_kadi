@@ -4,6 +4,8 @@ project for the Joomla and Nooku Frameworks, most likely, it will just render sw
 
 The Environment of this project is based on the services provided by [Moyo Web Architects](http://moyoweb.nl).
 
+[Additional Learning Notes](https://github.com/white001goat/com_kadi/blob/master/NOTES.md).
+
 ## Requirements
 
    * Joomla 3.X .

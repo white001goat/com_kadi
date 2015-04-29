@@ -1,0 +1,11 @@
+.idea
+*.DS_Store
+
+php_errors.log
+
+
+# Ignore local config
+/wp-local-config.php
+
+# Ignore user generated content
+/wp-content/uploads

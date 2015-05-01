@@ -23,14 +23,14 @@ Nice [Nookui](http://www.nooku.org/) Project: [Ohana](https://github.com/gagarin
   
   
   The *KTemplateFilterAlias* provides the ability to type the following aliases in our templates
-          '@*helper*\('      => '$this->renderHelper\(',
-          '@*service*\('     => '$this->getService\(',
-          '@*date*\('        => '$this->renderHelper\(\'date.format\',',
-          '@*overlay*\('     => '$this->renderHelper\(\'behavior.overlay\', ',
-          '@*text*\('        => '$this->getHelper\(\'translator\')->translate\(',
-          '@*template*\('    => '$this->loadIdentifier\(',
-          '@*route*\('       => '$this->getView\()->createRoute\(',
-          '@*escape*\('      => '$this->getView\()->escape\(',
+'@*helper*\('      => '$this\->renderHelper\(',
+'@*service*\('     => '$this\->getService\(',
+'@*date*\('        => '$this\->renderHelper\(\'date.format\',',
+'@*overlay*\('     => '$this\->renderHelper\(\'behavior.overlay\', ',
+'@*text*\('        => '$this\->getHelper\(\'translator\')\->translate\(',
+'@*template*\('    => '$this\->loadIdentifier\(',
+'@*route*\('       => '$this\->getView\(\)\->createRoute\(',
+'@*escape*\('      => '$this\->getView\(\)\->escape\(',
   An example of the PHP code to load a helper that will insert Nooku client-side javascript into the template would be as follows:
   ``<?= @helper('behavior.mootools'); ?>``
   

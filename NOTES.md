@@ -25,9 +25,9 @@ Nice [Nookui](http://www.nooku.org/) Project: [Ohana](https://github.com/gagarin
   The *KTemplateFilterAlias* provides the ability to type the following aliases in our templates
 '@*helper*\('      => '$this\->renderHelper\(',
 '@*service*\('     => '$this\->getService\(',
-'@*date*\('        => '$this\->renderHelper\(\'date.format\',',
-'@*overlay*\('     => '$this\->renderHelper\(\'behavior.overlay\', ',
-'@*text*\('        => '$this\->getHelper\(\'translator\')\->translate\(',
+'@*date*\('        => '$this\->renderHelper\(\\'date.format\\',',
+'@*overlay*\('     => '$this\->renderHelper\(\\'behavior.overlay\\', ',
+'@*text*\('        => '$this\->getHelper\(\\'translator\\'\)\->translate\(',
 '@*template*\('    => '$this\->loadIdentifier\(',
 '@*route*\('       => '$this\->getView\(\)\->createRoute\(',
 '@*escape*\('      => '$this\->getView\(\)\->escape\(',
